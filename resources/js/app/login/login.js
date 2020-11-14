@@ -7,9 +7,9 @@ import Container from '@material-ui/core/Container';
 import { authenticationService } from '../_services/authenticationService';
 import { Redirect } from 'react-router-dom'
 function login(props) {
-    let email = document.getElementById('email').value;
-    let password = document.getElementById('password').value;
-    let user = { email: email, password: password }
+    // let email = document.getElementById('email').value;
+    // let password = document.getElementById('password').value;
+    // let user = { email: email, password: password }
     console.log(props)
     // authenticationService.login(user)
     //     .then(data => {
