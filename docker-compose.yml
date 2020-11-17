@@ -47,3 +47,9 @@ services:
       - "80:80"
     volumes: 
       - /var/run/docker.sock:/var/run/docker.sock:ro
+  node: 
+    build:
+      context: .docker/node
+    container_name: gao-node
+    volumes: 
+      - .:/home/node/app
