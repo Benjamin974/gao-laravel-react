@@ -25,6 +25,7 @@ class CardOrdi extends React.Component {
                 nom: attributions.client.name,
                 prenom: attributions.client.firstname
             }
+            console.log(this.state.attributions);
         })
         this.displayHoraire();
     }
